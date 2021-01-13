@@ -1,14 +1,17 @@
 # machine-learning-challenge
 Background
+
 Over a period of nine years in deep space, the NASA Kepler space telescope has been out on a planet-hunting mission to discover hidden planets outside of our solar system.
 In order to process this data, need to create machine learning models capable of classifying candidate exoplanets from the raw dataset.
 
 Steps
+
 Preprocess the raw data
 Tune the models
 Compare two or more models
 
 Preprocess the Data
+
 Preprocess the dataset prior to fitting the model.
 Perform feature selection and remove unnecessary features.
 Use MinMaxScaler to scale the numerical data.
@@ -18,6 +21,7 @@ Use GridSearch to tune model parameters.
 Tune and compare at least two different classifiers.
 
 Reporting
+
 Comparison of each model's performance as well as a summary about the findings and assumptions made based on the models
 
 Comparing results on test data:
@@ -36,4 +40,4 @@ SVM - Without Tuning	 0.8750715239366770
 
 SVM - With Hyperparameter Tuning		0.8815789473684210
 
-RandomForestClassifier has the best score (0.8975972540045760) on Test Data. It is saved in Final_Model folder.
+RandomForestClassifier has the best score (0.8975972540045760) on Test Data. It is saved as Final_Model
