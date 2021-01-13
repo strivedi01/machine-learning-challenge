@@ -23,11 +23,17 @@ Comparison of each model's performance as well as a summary about the findings a
 Comparing results on test data:
 
 DecisionTreeClassifier 0.8478260869565210
+
 LogisticRegression   	 0.8621281464530890
+
 Neural Network		     0.8689931631088250
+
 Deep Learning		       0.8815789222717280
+
 RandomForestClassifier 0.8975972540045760 - Best Model
+
 SVM - Without Tuning	 0.8750715239366770
+
 SVM - With Hyperparameter Tuning		0.8815789473684210
 
 RandomForestClassifier has the best score (0.8975972540045760) on Test Data. It is saved in Final_Model folder.
