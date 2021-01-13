@@ -40,4 +40,4 @@ SVM - Without Tuning	 0.8750715239366770
 
 SVM - With Hyperparameter Tuning		0.8815789473684210
 
-RandomForestClassifier has the best score (0.8975972540045760) on Test Data. It is saved as Final_Model
+RandomForestClassifier has the best score (0.8975972540045760) on Test Data. It is saved as BestModel_ST_RandomForest.sav
